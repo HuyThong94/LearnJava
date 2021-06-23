@@ -1,0 +1,21 @@
+package buoi4;
+
+import java.util.Scanner;
+
+import buoi3.Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student hong = new Student();
+		/*
+		hong.name = "Hoang";
+		hong.age = 18;
+		hong.address = "Ha Noi";
+		hong.phone = "097832";
+		*/
+		hong.createStudent(new Scanner(System.in));
+		hong.print();
+	}
+
+}
